@@ -8,7 +8,7 @@
     body {
       margin: 0;
       font-family: Arial, sans-serif;
-      background-image: url('TESTFONDO.png');
+      background-image: url('TESTFONDO.PNG');
       background-size: cover;
       background-position: center;
       background-attachment: fixed;
@@ -20,7 +20,7 @@
 
     @media (max-width: 768px) {
       body {
-        background-image: url('TESTFONDO.png');
+        background-image: url('TESTFONDO.PNG');
       }
     }
 
@@ -182,7 +182,7 @@
       fetch(scriptURL, { method: 'POST', body: formData })
         .then(response => {
           form.reset();
-          modalMessage.innerHTML = "✅ Gracias por registrarte.<br><strong>Transportes Via, la vía más segura a tu destino.</strong>".</strong>";
+          modalMessage.innerHTML = "✅ Gracias por registrarte.<br><strong>Transportes Via, la vía más segura a tu destino.</strong>";
         })
         .catch(error => {
           modalMessage.textContent = "❌ Hubo un error al registrar tus datos. Inténtalo nuevamente.";
@@ -200,6 +200,7 @@
   </script>
 </body>
 </html>
+
 
 
 
